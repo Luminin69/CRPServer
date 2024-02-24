@@ -1,0 +1,7 @@
+{
+    "name":"carDealership",
+    "elements":[{"modelName":"prop_showroom_glass_1b",
+    "type":"object",
+    "position":{"x":-59.810203552246094,"y":-1098.73583984375,"z":27.237659454345703},
+    "rotation":{"x":0,"y":0,"z":-58.800079345703125}}]
+}

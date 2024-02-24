@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Speedometer</title>
+</head>
+<body class="unselectable">
+    <section class="container">
+        <main class="dash">
+            <div class="cluster">
+                <div class="icons">
+                    <img id="gauge-icon" src="./icons/gauge.png">
+                    <img id="gas-icon" src="./icons/gas.png">
+                </div>
+                <div class="gauges">
+                    <!-- Speed Gauge -->
+                    <div class="speed_wrapper">
+                        <div class="speed-meter"></div>
+                    </div>
+                    <!-- Gas Gauge -->
+                    <div class="gas_wrapper">
+                        <div class="gas-meter"></div>
+                    </div>
+                </div>
+                <!-- Dash Info -->
+                <div class="dash_info">
+                    <h3 class="speed-count">500</h3>
+                    <h3 class="mph">KMH</h3>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: transparent;
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  position: relative;
+
+  font-family: 'poppins', sans-serif;
+  font-weight: 100;
+  font-size: 1em;
+  
+}
+
+main.container {
+  width: auto;
+  height: auto;
+  
+  display: inline-flex;
+  position: absolute; 
+  bottom: 2.4%;
+  left: 17%;
+  gap: 5px;
+}
+
+/* Vic Flex */
+.vicinity-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Direction ex. N-S-E-W */
+.direction {
+  color: #ffffff;
+}
+
+.location-icon {
+  display: flex;
+  align-items: center;
+}
+
+.location-icon > img {
+  width: 30px;
+  height: 50px;
+}
+
+.vicinity {
+  color: #ffffff;
+  display: flex;
+  gap: 4px;
+}
+
+.vicinity-ext {
+  color: #ffffff;
+  display: flex;
+}
+
+.vicinity > .street {
+  color: #f4ce22;
+}
+
+
+/* Do NOT delete anything below this line ********/
+.text-shadow {
+	text-shadow: 0 0 3px rgba(0, 0, 0, .50);
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
