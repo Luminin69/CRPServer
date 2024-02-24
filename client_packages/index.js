@@ -5,6 +5,7 @@
 require("./ambients");
 require("./rage-builder");
 require("./events");
+require("./job/trucker")
 
 /**
  * This is the cef require list
