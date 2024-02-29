@@ -1,13 +1,17 @@
 module.exports = [
-    "comet3",
     "seashark",
     "bmx",
     'buzzard',
     "bati2",
-    "mamba",
     "t20",
     "baller3",
+
+    // Trucking
     "trailers4",
     "hauler",
-    "phantom"
+    "phantom",
+    "tiptruck",
+    "rubble",
+    "tanker",
+    "trailerlogs"
 ]

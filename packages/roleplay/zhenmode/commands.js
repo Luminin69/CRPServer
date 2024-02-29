@@ -16,7 +16,7 @@ mp.events.addCommand("veh", (player, _, model, fullText) => {
             engine: true,
         });
     vehicle.numberPlate = "Troyzhen";
-    vehicle.setColorRGB(255, 165, 0, 255, 0, 0);  //152, 210, 35, 0, 0, 0
+    vehicle.setColorRGB(0, 47, 255, 0, 0, 0);
 });
 
 ///// Command to fix transportation (vehicles)
