@@ -1,9 +1,6 @@
 //Reggae Beach Parking sm -- Testing parking triggers
 // pos x: -2033.13427734375 y: -480.0606994628906 z: 11.698022842407227
-mp.markers.new(
-  27,
-  new mp.Vector3(-2033.1342, -470.0606, 10.699),
-  1, //1 is the scale
+mp.markers.new(27, new mp.Vector3(-2033.1342, -470.0606, 10.699),1, //1 is the scale
   {
     direction: new mp.Vector3(-2033.1342, -480.0606, 10.699),
     rotation: new mp.Vector3(0, 0, 0),
